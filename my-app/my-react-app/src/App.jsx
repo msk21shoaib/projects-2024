@@ -5,13 +5,11 @@ import Food from './Food.jsx'
 
 function App() {
     return(
-                                    //fagment
       <>                            
         <Header/>
         <Food/>
         <Footer/>
       </>
-
     )
 }
 

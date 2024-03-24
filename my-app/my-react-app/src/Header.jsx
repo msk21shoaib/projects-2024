@@ -12,6 +12,6 @@ function Header(){
             </nav>
             <hr></hr>
         </header>
-    )
+    );
 }
 export default Header
