@@ -1,5 +1,4 @@
 .welcome-message{
-    /* display: inline-block; */
     display: list-item;
     font-size: 2rem;
     background-color: green;
@@ -9,7 +8,6 @@
     border-radius: 10px;
 }
 .login-prompt{
-    /* display: inline-block; */
     display: list-item;
     font-size: 2rem;
     background-color: rgb(153, 16, 16);
