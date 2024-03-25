@@ -1,9 +1,9 @@
-import Student from './Student.jsx'
+import UserGreeting from './UserGreeting.jsx'
 
 function App() {
     return(
       <>                            
-        <h1>batman</h1>
+        <UserGreeting isLoggedIn={true} username="BroCode"/>
       </>
     )
 }

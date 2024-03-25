@@ -1,8 +1,8 @@
 .student{
-    background-color: rgba(0, 0, 0, 0.939);
+    background-color: rgba(195, 15, 15, 0.939);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     padding-inline-start: 10px;
-    border: 1px solid rgba(236, 5, 5, 0.974);
+    border: 1px solid rgba(224, 21, 21, 0.974);
     border-radius: 20px;
 }
