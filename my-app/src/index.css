@@ -1,8 +1,20 @@
-.student{
-    background-color: rgba(195, 15, 15, 0.939);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    padding-inline-start: 10px;
-    border: 1px solid rgba(224, 21, 21, 0.974);
-    border-radius: 20px;
+.welcome-message{
+    /* display: inline-block; */
+    display: list-item;
+    font-size: 2rem;
+    background-color: green;
+    color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.login-prompt{
+    /* display: inline-block; */
+    display: list-item;
+    font-size: 2rem;
+    background-color: rgb(153, 16, 16);
+    color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
