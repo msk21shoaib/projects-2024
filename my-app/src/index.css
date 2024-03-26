@@ -1,18 +1,26 @@
-.welcome-message{
-    display: list-item;
-    font-size: 2rem;
-    background-color: green;
-    color: antiquewhite;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+.list-category{
+    font-family:  monospace;
+    font-weight: 800;
+    color: rgb(12, 12, 12);
+    background-color: rgb(6, 246, 242);
+    border-radius: 7px;
+    margin: 4px;
+    padding: 9px;
+    border: 2px solid;
+    border-color: rgba(5, 5, 5, 0.896);
+    text-align: center;
+    display: inline-block;
 }
-.login-prompt{
-    display: list-item;
-    font-size: 2rem;
-    background-color: rgb(153, 16, 16);
-    color: antiquewhite;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
+.list-item{
+    color: rgb(5, 5, 5);
+    font-size: larger;
+    display: inline-flexbox;
+    background-color: rgb(219, 163, 163);
+    margin: 8px;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 30px;
+    text-align: center;
+    list-style: none;
+
 }
