@@ -4,7 +4,7 @@
 
 import React, { useState } from 'react';
 
-function MyComponent() {
+function MyComponent2() {
   const [count, setCount] = useState(0);
 
 // Takes the PENDING State to calculate NEXT state

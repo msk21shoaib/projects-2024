@@ -1,11 +1,10 @@
 import React from 'react';
-import MyComponent2 from './MyComponent2';
+import MyComponent3 from './MyComponent3';
 
 function App() {
   return (
     <div className="App">
-      <h1>React Counter App</h1>
-      <MyComponent2 />
+      <MyComponent3 />
     </div>
   );
 }
