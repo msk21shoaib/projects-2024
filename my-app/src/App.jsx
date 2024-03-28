@@ -1,8 +1,12 @@
-import Mycmpnt from './Mycmpnt.jsx'
+import React from 'react';
+import ColorPicker from './ColorPicker';
 
 function App() {
-
-  return( <Mycmpnt/>  );
+  return (
+    <div className="app-container">
+      <ColorPicker />
+    </div>
+  );
 }
 
-export default App
+export default App;
