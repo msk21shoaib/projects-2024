@@ -12,21 +12,18 @@ function MyComponent5() {
       make: carMake,
       model: carModel,
     };
-    setCars([...cars, newCar]);
+    setCars(c => [...c, newCar]);
     setCarYear(new Date().getFullYear());
     setCarMake('');
     setCarModel('');
   }
 
   function handleRemoveCar(index) {
-    const updatedCars = [...cars];
-    updatedCars.splice(index, 1);
-    setCars(updatedCars);
+    setCars(c => c.filter((_,i) => i!==index));
   }
 
   function handleYearChange(event) {
-    const yearValue = event.target.value;
-    setCarYear(yearValue);
+    setCarYear(event.target.value);
   }
 
   return (
@@ -41,26 +38,9 @@ function MyComponent5() {
         ))}
       </ul>
       <input 
-        className="input-space"
-        type="number"
-        value={carYear}
-        onChange={handleYearChange}
-        placeholder="Year"
-      />
-      <input 
-        className="input-space"
-        type="text"
-        value={carMake}
-        onChange={(e) => setCarMake(e.target.value)}
-        placeholder="Make"
-      />
-      <input 
-        className="input-space"
-        type="text"
-        value={carModel}
-        onChange={(e) => setCarModel(e.target.value)}
-        placeholder="Model"
-      />
+        className="input-space" type="number" value={carYear} onChange={handleYearChange} placeholder="Year"/><br/>
+      <input className="input-space" type="text" value={carMake} onChange={(e) => setCarMake(e.target.value)} placeholder="Make" /><br/>
+      <input  className="input-space" type="text" value={carModel} onChange={(e) => setCarModel(e.target.value)} placeholder="Model" /><br/>
       <button className="button1"  onClick={handleAddCar}>Add Car</button>
     </div>
   );
