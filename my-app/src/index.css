@@ -35,20 +35,14 @@
   .delete-button:hover {
     background-color: hsl(10, 90, 40);
   }
-  .move-up-button{
+  .move-button{
     background-color: hsl(207, 90, 64%);
   }
   
-  .move-up-button:hover {
+  .move-button:hover {
     background-color: hsl(207, 90, 54%);
   }
-  .move-down-button{
-    background-color: hsl(207, 90, 64%);
-  }
-  
-  .move-down-button:hover {
-    background-color: hsl(207, 90, 54%);
-  }
+
   input[type="text"]{
     font-size: 1.6rem;
     padding: 10px;
