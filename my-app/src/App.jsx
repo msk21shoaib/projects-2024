@@ -1,10 +1,10 @@
 import React from 'react';
-import ToDoList from './ToDoList.jsx';
+import MyComponent6 from './MyComponent6.jsx';
 
 function App() {
   return (
     <div className="App">
-      <ToDoList />
+      <MyComponent6 />
     </div>
   );
 }
