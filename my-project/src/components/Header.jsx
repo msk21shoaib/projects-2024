@@ -1,8 +1,10 @@
 import React from 'react'
+import { useState } from 'react';
 import { AiOutlineMenu,AiOutlineClose } from "react-icons/ai";
 // import { AiOutlineClose } from "react-icons/ai";
 
 function Header(){
+
     const [toggle,setToggle] = useState(false);
      return(
         <div className='bg-[#2699fb] p-4' >
@@ -12,9 +14,9 @@ function Header(){
                 </div>
                 {
                     toggle ? 
-                    <AiOutlineMenu onClick={() => setToggle(!toggle)}  className='text-white text-2xl md:hidden block '  />
+                    <AiOutlineClose onClick={() => setToggle(!toggle)}  className='text-white text-2xl md:hidden block '  />
                     :
-                    <AiOutlineClose onClick={() => setToggle(!toggle)} className='text-white text-2xl md:hidden block '/>
+                    <AiOutlineMenu onClick={() => setToggle(!toggle)} className='text-white text-2xl md:hidden block '/>
                 }
                 
                 
@@ -32,18 +34,18 @@ function Header(){
                         Contact
                     </li>
                 </ul>
-                {/* responsive  */}
-                <ul className={`md:hidden w-full text-white fixed bg-black top-{92px} ${toggle ? 'left-[0]' : 'left-[100%]'} `} >
-                    <li>
+                
+                <ul className={`duration-500  md:hidden w-full h-screen text-white fixed bg-black top-[98px] ${toggle ? 'left-[0]' : 'left-[100%]'} `} >
+                    <li className='p-4' >
                         Home
                     </li>
-                    <li>
+                    <li className='p-4' >
                         Resources
                     </li>
-                    <li>
+                    <li className='p-4' >
                         About
                     </li>
-                    <li>
+                    <li className='p-4' >
                         Contact
                     </li>
                 </ul>
