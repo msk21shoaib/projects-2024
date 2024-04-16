@@ -7,7 +7,7 @@ function Experts() {
         <div className="  col-span-1 md:w-[90%] text-center " >
             <img src={laptop} alt="" className="inline" />
         </div>
-        <div className="  col-span-2 flex flex-col justify-center " >
+        <div className="  col-span-2 flex flex-col justify-center mr-2 " >
             <h1 className="text-[#00df9a] font-bold my-2 " >LEARN FROM EXPERTS</h1>
             <p>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati adipisci deleniti expedita, inventore veritatis blanditiis odit accusamus voluptate, facere deserunt consectetur fuga, laboriosam est eos! Ex odit quaerat laborum illum.
