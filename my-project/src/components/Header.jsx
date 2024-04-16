@@ -8,7 +8,7 @@ function Header(){
     const [toggle,setToggle] = useState(false);
      return(
         <div className='bg-[#2699fb] p-4' >
-            <div className='max-w-[1240px] items-center py-[15px] mx-auto flex justify-between ' >
+            <div className='max-w-[1250px] items-center py-[15px] mx-auto flex justify-between ' >
                 <div className='text-3xl font-bold' >
                     MsK
                 </div>

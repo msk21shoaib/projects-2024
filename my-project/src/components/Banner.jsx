@@ -3,9 +3,9 @@ import { ReactTyped } from "react-typed";
 
 function Banner() {
     return(
-        <div className='bg-[#2699fb] w-full py-[80px]' >
-            <div className='max-w-[1240px] py-[100px]  mx-auto text-center font-bold' >
-                <div className=' text-[20px] md:text-4xl md:p-[24px]' >
+        <div className='bg-[#2699fb] w-full py-[50px]' >
+            <div className='max-w-[1250px] py-[100px]  mx-auto text-center font-bold' >
+                <div className=' text-[20px] md:text-4xl md:p-[20px]' >
                     Learn with us
                 </div>    
                 <h2 className='text-white text-4xl md:text-[80px] md:p-[24px] ' >Grow with us</h2>
@@ -18,9 +18,11 @@ function Banner() {
                         backSpeed={30}
                     />
                 </div>
+                <button className="bg-black text-white p-3 rounded" >Get Started</button>
             </div>
             
         </div>
+        
     )
 }
 export default Banner
