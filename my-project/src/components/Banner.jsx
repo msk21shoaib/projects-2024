@@ -11,10 +11,11 @@ function Banner() {
                 <h2 className='text-white text-4xl md:text-[80px] md:p-[24px] ' >Grow with us</h2>
                 <div className='text-[20px] md:text-[60px] md:p-[24px] text-white'>
                     Learn
-                    <ReactTyped 
+                    <ReactTyped className='pl-3'
                         strings={["Web Development","Digital Marketing","Ethical hacking"]} 
-                        typeSpeed={70} 
+                        typeSpeed={40} 
                         loop={true}
+                        backSpeed={30}
                     />
                 </div>
             </div>
