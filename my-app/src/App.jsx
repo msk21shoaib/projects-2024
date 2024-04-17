@@ -1,10 +1,10 @@
 import React from 'react';
-import Width from './Width.jsx';
+import DigitalClock from './DigitalClock.jsx';
 
 function App() {
   return (
     <div className="App">
-      <Width />
+      <DigitalClock />
     </div>
   );
 }
