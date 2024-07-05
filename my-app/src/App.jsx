@@ -1,14 +1,9 @@
-
-import React from 'react';
-import MyComponent7 from './MyComponent7.jsx';
-
+import Stopwatch from './Stopwatch.jsx';
 
 function App() {
-  return (
-    <div className="App">
-      <MyComponent7/>
-    </div>
-  );
-}
 
+    return (<Stopwatch />);
+}
 export default App;
+
+
