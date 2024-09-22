@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import '../styles/style.css';
+import styling from "../Styles/styles.css";
 import audioSrc from '/public/music.mp3';
 import audiogoSrc from '/public/gameover.mp3';
 
